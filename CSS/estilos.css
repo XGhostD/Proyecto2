@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Leckerli+One&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Rubik+Moonrocks&display=swap');
+
+
+body {
+  background-image: url(imagenes/Ouija-1.webp); 
+  background-size: cover;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Leckerli One', cursive;
+  font-family: 'Rubik Moonrocks', cursive;
+}
+
+header div {
+  background-color: rgba(226, 219, 219, 0.329);
+  border-radius: 50px;
+  padding: 20px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  display: flex;
+}
+
+div {
+  background-color: rgba(226, 219, 219, 0.329);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  margin-right: 15px;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Leckerli One', cursive;
+  text-shadow: 12px 12px gray;
+letter-spacing:15 px;
+
+ 
+}  
+
+
+
+ul {
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: left;
+  color: rgb(7, 73, 150);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(121, 238, 121);
+}
+
+p {
+  text-align: center;
+  color: rgb(11, 221, 11);
+}
+
+#Logo {
+  width: 80px;
+  height: 100px;
+  border-radius: 50%;
+  border-bottom-style: solid;
+  border-color: greenyellow;
+  border-width: 3px;
+
+}
+
+#lista {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#lista-cuentos button {
+  background-color: chartreuse;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  
+  border-radius: 12px;
+  border-style: none;
+  border-bottom-style: solid;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Leckerli One', cursive;
+  font-family: 'Rubik Moonrocks', cursive;
+}
+
+#lista-cuentos button:hover {
+  background-color: rgb(119, 158, 80);
+  transition: 0, 5s;
+}
+
+#lista-cuentos button.seleccionado {
+  background-color: blueviolet;
+}
+
+.centrado {
+  text-align: center;
+
+}
+
+a {
+  color: rgb(42, 160, 18);
+ 
+}
+
+div.contenedor h2{
+  
+  font-family: 'Leckerli One', cursive;
+ 
+}
